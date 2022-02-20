@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+.block-title {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    color: black;
+}
+
+.header {
+    height: 100px;
+    background-color: #f00;
+}
+
+.nav {
+    display: inline-block;
+    width: 20%;
+    background-color: aqua;
+    vertical-align: top;
+    height: 500px;
+}
+
+.navlist {
+    line-height: 25px;
+    padding-left: 20px;
+}
+
+.list-item span {
+    font-weight: bold;
+}
+
+.list-item a {
+    text-decoration: none;
+}
+
+.section {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: blue;
+    color: white;
+}
+
+.section .block-title {
+    font-weight: bold;
+    text-align: left;
+    padding: 60px 0;
+    font-size: 40px;
+}
+
+.section h2 {
+    font-weight: bold;
+    padding: 60px 0;
+    color: white;
+    font-size: 40px;
+}
+
+.section h3 {
+    padding: 20px;
+    font-weight: bold;
+}
+
+.section .phones {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 15px;
+    font-size: 25px;
+    line-height: 1.2em;
+    width: 50%;
+    height: 284px;
+}
+
+.phones .phones-list {
+    text-decoration: none;
+    color: white;
+
+}
+
+.section .schedule {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 284px;
+}
+
+.schedule .schedule-title {
+    font-size: 25px;
+}
+
+
+.schedule .schedule-item {
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+.section-info {
+    height: 340px;
+}
+.section .section-info-text {
+    padding-left: 20px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.article {
+    background-color: rgb(211, 80, 101);
+    height: 150px;
+    margin-top: 20px;
+}
+
+.article .article-info {
+    font-size: 25px;
+}
+
+.aside {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    background-color: aqua;
+    height: 500px;
+}
+
+.footer {
+    height: 100px;
+    background-color: red;
+}
